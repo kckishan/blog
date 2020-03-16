@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Kishan K C"
-  avatar           : path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  avatar           : "/assets/images/pic.jpg"
+  bio              : "Machine Learning Enthusiast."
   location         : "Rochester, New York"
   email            : kk3671@rit.edu
   links:
@@ -269,6 +269,12 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
